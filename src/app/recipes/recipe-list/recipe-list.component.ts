@@ -7,7 +7,10 @@ import {Recipe } from '../recipe.model'
 })
 export class RecipeListComponent {
   recipes: Recipe[] = [
-    new Recipe('Hamburger', 'This is a Test', 'https://s7d1.scene7.com/is/image/mcdonalds/Header_Hamburger_832x472:1-3-product-tile-desktop?wid=763&hei=472&dpr=off')
+    new Recipe('Test Recipe 1', 
+    'This is a Test', 
+    'https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg'),
+   
   ];
 
   constructor(){ }
